@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+@media only screen and (max-width: 767px) {
+  .list-match-card {
+    list-style-type: none;
+    width: 40%;
+    background-color: #1e293b;
+    margin: 8px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+  }
+  .match-card-img {
+    width: 50%;
+    margin-top: 10px;
+  }
+  .match-card-head {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .match-card-result {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .green {
+    color: #18ed66;
+  }
+  .red {
+    color: #e31a1a;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .list-match-card {
+    list-style-type: none;
+    width: 25vw;
+    background-color: #1e293b;
+    margin: 8px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+  }
+  .match-card-img {
+    width: 30%;
+    margin-top: 10px;
+  }
+  .match-card-head {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .match-card-result {
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .green {
+    color: #18ed66;
+    font-size: 20px;
+  }
+  .red {
+    color: #e31a1a;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+.rcb {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+.csk {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+.mi {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+.kkr {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+.dc {
+  background-image: linear-gradient(to top, #1e293b, #13418b, #5755a7);
+}
+.rr {
+  background-image: linear-gradient(to top, #1e293b, #da237b);
+}
+.kxp {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.sh {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+@media only screen and (max-width: 767px) {
+  .team-match-cont {
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .latest-match {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+  }
+  .match-card-un-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .team-match-cont {
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .latest-match {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 24px;
+  }
+  .match-card-un-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

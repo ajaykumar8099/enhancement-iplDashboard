@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+@media only screen and (max-width: 767px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e293b;
+    color: #ffffff;
+    font-weight: 'Bree Serif';
+    border-radius: 6px;
+  }
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bree serif';
+    padding: 14px;
+  }
+  .latest-team-img {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .third-container {
+    font-family: 'Bree Serif';
+    padding: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1e293b;
+    color: #ffffff;
+    font-weight: 'Bree Serif';
+    border-radius: 6px;
+  }
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bree serif';
+    padding: 14px;
+  }
+  .latest-team-img {
+    width: 50%;
+    margin-left: 60px;
+  }
+  .line-container {
+    display: none;
+  }
+  .third-container {
+    font-family: 'Bree Serif';
+    padding: 14px;
+  }
+}
