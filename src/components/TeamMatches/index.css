@@ -24,6 +24,15 @@
 .sh {
   background-image: linear-gradient(to top, #1e293b, #f26d22);
 }
+.btn-container {
+  text-align: center;
+}
+.back-btn {
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  background-color: rgb(78, 78, 248);
+}
 
 @media only screen and (max-width: 767px) {
   .team-match-cont {
